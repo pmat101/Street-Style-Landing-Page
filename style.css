@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  position: relative;
+}
+
+.navbar-container div:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 4em;
+  width: 25%;
+}
+
+.navbar-container div:nth-child(2) {
+  width: 50%;
+  margin: 1em auto;
+}
+
+.list-item {
+  list-style: none;
+  display: inline-block;
+  padding: 1em;
+  margin: 0 1em;
+  font-family: "Orbitron";
+  font-weight: 700;
+}
+
+.list-item:nth-child(1) {
+  font-weight: 900;
+  font-size: 1.2em;
+  padding-bottom: 0;
+}
+
+.list-item:nth-child(1)::after {
+  content: "";
+  display: block;
+  width: 70%;
+  border-bottom: 0.2em solid #000;
+  margin-left: 0.5em;
+}
+
+.button-group {
+  position: absolute;
+  bottom: 4em;
+  right: 1em;
+  width: 25%;
+}
+
+/* .search-icon {
+  position: absolute;
+  left: 700em;
+  top: 10em;
+} */
+
+.search-icon svg {
+  margin: 1.4em 1.4em;
+  height: 24px;
+}
+
+.button-group div:nth-child(2) {
+  position: absolute;
+  right: 4em;
+  top: 0;
+}
+
+.nav-button {
+  padding: 0.2em 2em;
+  margin: 0 1em;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "Poppins";
+  font-size: 1.1em;
+  border-radius: 0.6em;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.square {
+  position: absolute;
+  top: 17.5em;
+  left: 13.5em;
+}
+
+.square img {
+  height: 40vh;
+}
+
+.star {
+  position: absolute;
+  top: 2em;
+  right: 8em;
+}
+
+.star img {
+  height: 3em;
+}
+
+.globe {
+  position: absolute;
+  top: 0;
+  right: 35em;
+}
+
+.globe img {
+  height: 3em;
+}
+/* 
+.hero-container div:nth-child(1) {
+  display: inline-block;
+  width: 50%;
+} */
+
+img[alt="person-hero-iamge"] {
+  position: absolute;
+  top: 3em;
+  left: 4em;
+  height: 70vh;
+}
+
+.hero-container-right {
+  position: absolute;
+  top: 7em;
+  right: 0;
+  /* display: inline-block; */
+  width: 60%;
+}
+
+.hero-heading {
+  font-family: "Orbitron";
+  text-align: center;
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.hero-description {
+  font-family: "Poppins";
+  font-size: 0.8em;
+  text-align: center;
+  padding: 4em 10em;
+  opacity: 0.8;
+  /* margin: 5em 5em; */
+}
+
+.hero-container-right div:nth-child(3) {
+  position: relative;
+}
+
+.button-email {
+  position: absolute;
+  left: 16em;
+  font-family: "Orbitron";
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0.2em 1.1em;
+  border-radius: 0.5em;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 0.8;
+}
+
+.button-join {
+  position: absolute;
+  left: 27em;
+  font-family: "Orbitron";
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0.2em 0.2em;
+  border-radius: 0.5em;
+  color: #fff;
+  background-color: #000;
+}
+
+.hero-container-right div:nth-child(3)::after {
+  background-image: url("/assets/start.png");
+  background-size: 2.3em 2.3em;
+  display: inline-block;
+  width: 2.3em;
+  height: 2.3em;
+  content: "";
+  position: absolute;
+  left: 7em;
+  top: 7em;
+  /* content: url("/assets/start.png");
+  position: absolute;
+  left: 5em;
+  top: 5em;
+  display: block;
+  width: 10px;
+  padding: 1em; */
+}
+
+.hero-container-right div:nth-child(4) {
+  position: absolute;
+  left: 20em;
+  top: 20em;
+}
+
+.hero-container-right div h4 {
+  text-align: center;
+  font-family: "Poppins";
+  opacity: 0.6;
+  font-weight: 600;
+}
+
+.hero-container-right span img {
+  width: 24px;
+  margin: 8px;
+}
